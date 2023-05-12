@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.hero-img{
+    background-image: url("/img.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    animation: morph 8s ease-in-out infinite;
+    border: 4px solid #2d2e32;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    /* height: 48rem; */
+    transition: all 1s ease-in-out;
+    /* width: 48rem; */
+    margin: auto;
+  }
+  @keyframes morph {
+    50%{
+      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+  }
