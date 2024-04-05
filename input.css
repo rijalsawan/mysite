@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 .hero-img{
-    background-image: url("/img.jpeg");
+    background-image: url("/ME.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
