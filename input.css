@@ -2,11 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 .hero-img{
-    background-image: url("/ME.jpg");
+    background-image: url("/sawan.jpg");
     background-size: cover;
-    background-position: left;
     background-repeat: no-repeat;
-    background-position-y: bottom;
+    background-position-y: top;
     animation: morph 8s ease-in-out infinite;
     border: 4px solid #2d2e32;
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
